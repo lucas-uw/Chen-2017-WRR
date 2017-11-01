@@ -13,4 +13,5 @@ $ ncks -d time,334,364 /raid2/xiaodong.chen/lulcc/CMIP5/ACCESS1-0/orig_global/ua
 
 ## Script logic:
 cmd.master.pl will call wrap\_process_CMIP5_to_grib.\*.pl automatically
+
 wrap\_process_CMIP5_to_grib.\*.pl will run nc2bignc.\* script automatically.
