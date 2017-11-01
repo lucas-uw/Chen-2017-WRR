@@ -5,7 +5,6 @@ $year = shift;
 $toolsdir = "/usr1/xiaodong.chen/lulcc/tools/cmip_tools/hysplit";
 $rootdir = "/raid2/xiaodong.chen/lulcc/CMIP5";
 
-#$ECMWF_gridfile = "/usr1/xiaodong.chen/lulcc/tools/cmip_tools/hysplit/gridfile_ERA_Interim_NPacific";
 $ECMWF_gridfile = "/usr1/xiaodong.chen/lulcc/tools/cmip_tools/hysplit/gridfile_ERA_Interim_Pacific";
 
 for($month=12; $month<=12; $month++) {

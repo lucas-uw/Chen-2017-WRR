@@ -4,10 +4,8 @@ $model = shift;
 $year = shift;
 $month = shift;
 
-
 $rootdir = shift; 
 @varlist = ('hur','zg','ta','ua','va','wap','tas','uas','vas','ps');
-#@varlist = ('hur','zg','ta','ua','va','wap','tas','uas','vas'); # for MPI-ESM-2G, which does not have ps data
 
 if($year<=2005) {
 	$scenario = "historical";

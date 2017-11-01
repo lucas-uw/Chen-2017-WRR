@@ -5,7 +5,7 @@ $year = shift;
 $month = shift;
 
 $rootdir = "/raid2/xiaodong.chen/lulcc/CMIP5";
-@varlist = ('hur','zg','ta','ua','va','wap','tas','uas','vas','ps');
+@varlist = ('zg','ta','ua','va','wap','tas','uas','vas');
 
 if($year<=2005) {
 	$scenario = "historical";
